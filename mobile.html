@@ -1,0 +1,100 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fortybam</title>
+<script>if(matchMedia("(min-width: 821px)").matches)location.replace("desktop.html")</script>
+<meta name="description" content="Fortybam: combat veteran, paramedic and nurse, into gaming and tech. Shorts, videos and socials in one place.">
+<meta property="og:title" content="Fortybam"><meta property="og:description" content="Shorts, videos and socials in one place.">
+<meta property="og:image" content="https://fortybam.com/avatar.jpg"><meta property="og:url" content="https://fortybam.com">
+<meta name="twitter:card" content="summary"><meta name="twitter:site" content="@fortybam">
+<meta name="theme-color" content="#07080c"><link rel="icon" href="avatar.jpg">
+<link rel="preconnect" href="https://www.youtube.com"><link rel="preconnect" href="https://i.ytimg.com">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet"><style>
+:root{--bg:#07080c;--glass:rgba(255,255,255,.06);--line:rgba(255,255,255,.11);--text:#f4f5f8;--muted:#a9b0bf;--a1:#3ee0ff;--a2:#8b5cff;--a3:#ff4fa3;--red:#ff0033}
+*{box-sizing:border-box;margin:0;padding:0}html{background:var(--bg);scroll-behavior:smooth}
+body{min-height:100vh;color:var(--text);font-family:Inter,system-ui,sans-serif;overflow-x:hidden;position:relative}
+.bg{position:fixed;inset:-20%;z-index:-2;background:radial-gradient(40% 35% at 20% 15%,rgba(62,224,255,.18),transparent 70%),radial-gradient(45% 40% at 85% 30%,rgba(139,92,255,.20),transparent 70%),radial-gradient(50% 40% at 50% 100%,rgba(255,79,163,.14),transparent 70%);animation:drift 18s ease-in-out infinite alternate}
+.grid{position:fixed;inset:0;z-index:-1;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:44px 44px;mask-image:radial-gradient(ellipse at 50% 0%,#000 10%,transparent 70%);-webkit-mask-image:radial-gradient(ellipse at 50% 0%,#000 10%,transparent 70%);opacity:.3}
+@keyframes drift{to{transform:translate3d(3%,-3%,0) rotate(6deg)}}@keyframes rise{from{opacity:0;transform:translateY(14px)}}@keyframes spin{to{transform:rotate(360deg)}}
+.ring{border-radius:50%;padding:3px;background:conic-gradient(from 0deg,var(--a1),var(--a2),var(--a3),var(--a1));animation:spin 6s linear infinite;box-shadow:0 0 40px rgba(139,92,255,.35)}
+.ring img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block;border:3px solid var(--bg);animation:spin 6s linear infinite reverse}
+h1{font-family:"Space Grotesk",sans-serif;letter-spacing:-.02em;background:linear-gradient(90deg,#fff,#cfd6ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.handle{color:var(--muted);font-size:.92rem;margin-top:2px}
+.bio{color:#d6dae3;font-size:.95rem;line-height:1.5;margin-top:10px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tag{font-size:.78rem;font-weight:600;padding:6px 11px;border-radius:999px;background:var(--glass);border:1px solid var(--line);color:#e3e6ee}
+.label{font-family:"Space Grotesk",sans-serif;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.label:after{content:"";flex:1;height:1px;background:var(--line)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 18px;border-radius:999px;font:600 .9rem Inter,sans-serif;text-decoration:none;cursor:pointer;border:1px solid var(--line);background:var(--glass);color:var(--text);transition:transform .15s,border-color .15s,box-shadow .15s,background .15s}
+.btn svg{width:18px;height:18px;flex:none}.btn:hover{border-color:var(--a2);box-shadow:0 0 18px rgba(139,92,255,.35);transform:translateY(-1px)}
+.btn.sub{background:var(--red);border-color:var(--red);color:#fff}.btn.sub svg{fill:#fff}.btn.sub:hover{box-shadow:0 0 26px rgba(255,0,51,.45);border-color:#ff5c7a}
+.btn.xb svg{fill:#fff}
+:focus-visible{outline:3px solid var(--a1);outline-offset:3px;border-radius:12px}
+.short{position:relative;aspect-ratio:9/16;border-radius:20px;overflow:hidden;background:#000;border:1px solid var(--line);box-shadow:0 20px 60px rgba(0,0,0,.6),0 0 0 1px rgba(139,92,255,.15)}
+.short iframe{width:100%;height:100%;border:0;display:block}
+.facade{all:unset;position:absolute;inset:0;cursor:pointer;display:block}
+.facade img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s}
+.facade:hover img{transform:scale(1.04)}
+.facade .pl{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:rgba(255,0,51,.92);display:grid;place-items:center;box-shadow:0 0 30px rgba(255,0,51,.5)}
+.facade .pl:after{content:"";border-left:20px solid #fff;border-top:12px solid transparent;border-bottom:12px solid transparent;margin-left:5px}
+.facade:focus-visible{outline:3px solid var(--a1);outline-offset:-3px}
+.ctrls{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:12px}
+.ctrls .btn{padding:8px 14px;font-size:.82rem}
+.links{display:grid;gap:12px}
+a.link{display:flex;align-items:center;gap:14px;padding:15px 18px;min-height:64px;border-radius:16px;background:var(--glass);border:1px solid var(--line);color:var(--text);text-decoration:none;font-weight:600;backdrop-filter:blur(10px);transition:transform .15s,border-color .15s,box-shadow .15s}
+a.link:hover{transform:translateY(-2px)}
+a.link .ic{width:40px;height:40px;border-radius:11px;display:grid;place-items:center;flex:none}a.link .ic svg{width:20px;height:20px;fill:#fff}
+a.link .t{flex:1;text-align:left}a.link .t small{display:block;font-weight:400;color:var(--muted);font-size:.82rem;margin-top:2px}
+a.link .go{opacity:.55;transition:.15s}a.link:hover .go{opacity:1;transform:translateX(3px)}
+.yt .ic{background:var(--red)}.yt:hover{border-color:var(--red);box-shadow:0 0 24px rgba(255,0,51,.25)}
+.x .ic{background:#111;border:1px solid #333}.x:hover{border-color:#fff;box-shadow:0 0 24px rgba(255,255,255,.12)}
+.vid{display:block;text-decoration:none;color:var(--text);border-radius:16px;overflow:hidden;background:var(--glass);border:1px solid var(--line);transition:transform .15s,border-color .15s,box-shadow .15s}
+.vid:hover{transform:translateY(-3px);border-color:var(--a2);box-shadow:0 10px 30px rgba(139,92,255,.25)}
+.vid .th{position:relative;aspect-ratio:16/9;background:#000;overflow:hidden}.vid .th img{width:100%;height:100%;object-fit:cover;display:block}
+.vid .meta{padding:10px 12px 12px}.vid .meta b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:.9rem;line-height:1.3}
+.vid .meta span{display:block;color:var(--muted);font-size:.78rem;margin-top:4px}
+.toast{position:fixed;left:50%;bottom:90px;transform:translate(-50%,20px);background:#151826;border:1px solid var(--a2);padding:10px 16px;border-radius:999px;font-size:.85rem;opacity:0;pointer-events:none;transition:.25s;z-index:50}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+footer{color:var(--muted);font-size:.8rem;margin-top:36px;text-align:center}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+body{display:flex;justify-content:center;padding:40px 18px calc(110px + env(safe-area-inset-bottom))}
+main{width:100%;max-width:440px;text-align:center;animation:rise .7s ease both}
+.ring{width:112px;height:112px;margin:0 auto 14px}h1{font-size:2.1rem}.tags{justify-content:center;margin:14px 0 26px}
+section{margin-bottom:30px}.short{max-width:300px;margin:0 auto}
+.row{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 18px 10px;margin:0 -18px;scrollbar-width:none;text-align:left}.row::-webkit-scrollbar{display:none}
+.row .vid{flex:0 0 72%;scroll-snap-align:start}
+.hint{font-size:.75rem;color:var(--muted);margin-top:4px}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(7,8,12,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--line)}
+.bar .btn{flex:1;min-height:48px}.bar .btn.sq{flex:0 0 48px;padding:0}
+</style></head><body><div class="bg"></div><div class="grid"></div><main>
+<header><div class="ring"><img src="avatar.jpg" alt="Fortybam's raccoon avatar" width="112" height="112"></div>
+<h1>Fortybam</h1><div class="handle">@fortybam</div>
+<p class="bio">Combat veteran, paramedic and nurse. Here for the games and the tech.</p>
+<div class="tags"><span class="tag">🎖️ Combat Veteran, OEF/OIF</span><span class="tag">🚑 Paramedic &amp; Nurse</span><span class="tag">🎮 Gaming</span><span class="tag">💻 Tech</span></div></header>
+<section aria-labelledby="sl"><h2 class="label" id="sl">Random Short</h2>
+<div class="short"><iframe id="short" title="Fortybam YouTube Short" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+<div class="ctrls"><button class="btn" id="sound" type="button" aria-pressed="false"><i aria-hidden="true" style="font-style:normal">🔇</i><span>Turn sound on</span></button><button class="btn" id="shuffle" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>Another</button><a class="btn" id="watch" target="_blank" rel="noopener" href="https://youtube.com/@fortybam/shorts"><svg fill="#ff0033" viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>Watch on YouTube</a></div></section>
+<section aria-labelledby="ll"><h2 class="label" id="ll">Latest videos</h2><div class="row"><a class="vid" href="https://www.youtube.com/watch?v=KagMPLhmo-4" target="_blank" rel="noopener"><div class="th"><img src="https://i.ytimg.com/vi/KagMPLhmo-4/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"></div><div class="meta"><b>Lolz</b><span>4mo ago</span></div></a><a class="vid" href="https://www.youtube.com/watch?v=R-hBcCJGMko" target="_blank" rel="noopener"><div class="th"><img src="https://i.ytimg.com/vi/R-hBcCJGMko/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"></div><div class="meta"><b>3 Minute Undercity Crackling Energy Speed up</b><span>9mo ago</span></div></a><a class="vid" href="https://www.youtube.com/watch?v=GNTvzvtScVU" target="_blank" rel="noopener"><div class="th"><img src="https://i.ytimg.com/vi/GNTvzvtScVU/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"></div><div class="meta"><b>Kill Everything Diablo</b><span>10mo ago</span></div></a><a class="vid" href="https://www.youtube.com/watch?v=GoJ-DGsi5Io" target="_blank" rel="noopener"><div class="th"><img src="https://i.ytimg.com/vi/GoJ-DGsi5Io/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"></div><div class="meta"><b>Hidden Borderlands 4 mechanic!</b><span>1y ago</span></div></a><a class="vid" href="https://www.youtube.com/watch?v=Iqq6udWJ84c" target="_blank" rel="noopener"><div class="th"><img src="https://i.ytimg.com/vi/Iqq6udWJ84c/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"></div><div class="meta"><b>Borderlands 4 Worldboss</b><span>1y ago</span></div></a><a class="vid" href="https://www.youtube.com/watch?v=r-58jYk3r2U" target="_blank" rel="noopener"><div class="th"><img src="https://i.ytimg.com/vi/r-58jYk3r2U/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"></div><div class="meta"><b>New Flipper?</b><span>1y ago</span></div></a><a class="vid" href="https://www.youtube.com/watch?v=DQpYVdNNTyw" target="_blank" rel="noopener"><div class="th"><img src="https://i.ytimg.com/vi/DQpYVdNNTyw/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"></div><div class="meta"><b>Battlefield 6 Hot Corner</b><span>1y ago</span></div></a><a class="vid" href="https://www.youtube.com/watch?v=AH0jDBJB07g" target="_blank" rel="noopener"><div class="th"><img src="https://i.ytimg.com/vi/AH0jDBJB07g/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"></div><div class="meta"><b>Watch out flipper there is a new tool in town.</b><span>1y ago</span></div></a></div><p class="hint">Swipe for more →</p></section>
+<section aria-labelledby="fl"><h2 class="label" id="fl">Find me</h2><div class="links">
+<a class="link yt" href="https://youtube.com/@fortybam" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></span><span class="t">YouTube<small>Shorts, gameplay and more</small></span><span class="go" aria-hidden="true">→</span></a>
+<a class="link x" href="https://x.com/fortybam" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24"><path d="M18.9 1.2h3.7l-8 9.2 9.4 12.4h-7.4l-5.8-7.6-6.6 7.6H.5l8.6-9.8L0 1.2h7.6l5.2 6.9 6.1-6.9zm-1.3 19.4h2L6.5 3.3H4.3l13.3 17.3z"/></svg></span><span class="t">X<small>@fortybam</small></span><span class="go" aria-hidden="true">→</span></a></div></section>
+<footer>&copy; <span id="y"></span> Fortybam &middot; fortybam.com</footer></main>
+<nav class="bar" aria-label="Quick actions"><a class="btn sub" href="https://www.youtube.com/@fortybam?sub_confirmation=1" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>Subscribe</a><a class="btn xb" href="https://x.com/fortybam" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M18.9 1.2h3.7l-8 9.2 9.4 12.4h-7.4l-5.8-7.6-6.6 7.6H.5l8.6-9.8L0 1.2h7.6l5.2 6.9 6.1-6.9zm-1.3 19.4h2L6.5 3.3H4.3l13.3 17.3z"/></svg>Follow</a><button class="btn sq" id="share" type="button" aria-label="Share this page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg></button></nav>
+<div class="toast" id="toast" role="status" aria-live="polite"></div><script>
+document.getElementById('y').textContent=new Date().getFullYear();
+const SHORTS=["-HO2M069xso","1mdLnajAeW8","1uGwAqPDKL4","7LL6YxOa194","7v7fKIiCduc","8kx5U6_NLU4","9EC1h1Ey8h4","AqhPZ3oIMMI","C-tw2_11gKE","CFWYioWhdTg","CMI2kCUgI2k","CiGV7T0yGKo","F_ZEc0Lbi2w","FbAvy5sBITI","G8SIlxhexgg","KG2nfNvq52M","Kzh2G-nhVj0","PtDvM9iltmY","Q6HqZIIXKcA","QXiUsUOfFHg","SmVrdqfRhaQ","UE-8JfJ4kdE","YVSqEqywEBU","ZBjaxIHkKts","cELF157M9IU","d3kAYxoNgGU","dU6c-wFISq4","duII0Hy8cfo","e4DaofEPKjM","ea25vB-xjpI","hh_niBjoTBo","jwoZ4BJkVTI","kSXbGL0kRDk","mbsh8dfuh98","nRpzOQUzMfQ","ntD_RAqynho","o8Zmzm2hSkE","p7eneDhHZcs","sED6AKGofCU","stepI1XWK_Q","tETt5x0rXv4","tGPmacWQP5k","tldZ_sdfyQU","x2jVD1j8T-I","x9tZUKFXPQ0","xaRbeL2YjoA","xpprbdgSKAg","zzfTCYsD_2M"];
+const toast=m=>{const t=document.getElementById('toast');t.textContent=m;t.classList.add('on');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('on'),2200)};
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a}
+const src=(id,auto)=>'https://www.youtube.com/embed/'+id+'?autoplay='+(auto?1:0)+'&mute='+(muted?1:0)+'&loop=1&playlist='+id+'&playsinline=1&rel=0&modestbranding=1&enablejsapi=1';
+let muted=true;
+function cmd(f){document.querySelectorAll('.short iframe').forEach(fr=>fr.contentWindow&&fr.contentWindow.postMessage(JSON.stringify({event:'command',func:f,args:[]}),'*'))}
+function setSound(){const b=document.getElementById('sound');b.setAttribute('aria-pressed',String(!muted));b.querySelector('span').textContent=muted?'Turn sound on':'Mute';b.querySelector('i').textContent=muted?'🔇':'🔊'}
+document.getElementById('sound').onclick=()=>{muted=!muted;cmd(muted?'mute':'unMute');if(!muted)cmd('playVideo');setSound()};
+document.getElementById('share').onclick=async()=>{const d={title:'Fortybam',text:'Check out Fortybam: shorts, gameplay and more',url:'https://fortybam.com'};
+ try{if(navigator.share){await navigator.share(d);return}await navigator.clipboard.writeText(d.url);toast('Link copied!')}catch(e){if(e&&e.name==='AbortError')return;prompt('Copy this link:',d.url)}};
+
+let last=null;function pick(){let id;do{id=SHORTS[Math.random()*SHORTS.length|0]}while(id===last);last=id;
+document.getElementById('short').src=src(id,1);document.getElementById('watch').href='https://www.youtube.com/shorts/'+id}
+document.getElementById('shuffle').onclick=pick;pick();</script></body></html>
